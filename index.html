@@ -3,37 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="PayBeforeBite is a modern restaurant POS for faster billing, smarter operations and AI-powered insights.">
-  <title>PayBeforeBite — Smart Restaurant POS</title>
+  <meta name="description" content="PayBeforeBite is a focused restaurant billing management system for faster POS billing, menu control, invoices and sales insights.">
+  <title>PayBeforeBite — Restaurant Billing Management</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="nav">
-    <a class="brand" href="#"><span class="brand-mark">P</span><span>PayBeforeBite</span></a>
+  <header class="nav" id="top">
+    <a class="brand" href="#top"><span class="brand-mark">P</span><span>PayBeforeBite</span></a>
     <nav>
       <a href="#features">Features</a>
-      <a href="#ai">AI</a>
-      <a href="#pricing">Pricing</a>
-      <a href="#faq">FAQ</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#demo">Demo</a>
+      <a href="#contact">Contact</a>
     </nav>
-    <a class="nav-cta" href="#demo">Get Started</a>
-    <button class="menu-btn" aria-label="Open menu">☰</button>
+    <a class="nav-cta" href="#demo">View Demo</a>
+    <button class="menu-btn" type="button" aria-label="Open menu">☰</button>
   </header>
 
   <main>
     <section class="hero">
       <div class="hero-copy">
-        <div class="eyebrow"><span>●</span> Built for modern restaurants</div>
-        <h1>Run your restaurant.<br><em>Not your paperwork.</em></h1>
-        <p class="hero-text">A simple, powerful POS for billing, menu management, analytics and smarter restaurant operations.</p>
+        <div class="eyebrow"><span>●</span> RESTAURANT BILLING MANAGEMENT</div>
+        <h1>Bill faster.<br><em>Run cleaner.</em></h1>
+        <p class="hero-text">PayBeforeBite is a focused POS billing system for restaurants that need quick checkout, simple menu management, professional invoices and clear sales visibility.</p>
         <div class="hero-actions">
-          <a class="primary-btn" href="#demo">Start for free <span>→</span></a>
-          <a class="text-btn" href="#features">Explore features</a>
+          <a class="primary-btn" href="#demo">See the demo <span>→</span></a>
+          <a class="text-btn" href="#contact">Contact me</a>
         </div>
-        <div class="trust"><span>✓</span> Fast setup &nbsp; <span>✓</span> Cloud ready &nbsp; <span>✓</span> Built for India</div>
+        <div class="trust"><span>✓</span> Fast billing &nbsp; <span>✓</span> Menu management &nbsp; <span>✓</span> Sales dashboard</div>
       </div>
 
       <div class="hero-visual">
@@ -46,10 +46,10 @@
               <div class="mini-search">⌕ Search menu...</div>
               <div class="mini-cats"><b>All</b><span>Starters</span><span>Main</span></div>
               <div class="food-grid">
-                <div class="food"><span>🍕</span><b>Farmhouse Pizza</b><small>₹299</small></div>
-                <div class="food"><span>🍔</span><b>Classic Burger</b><small>₹199</small></div>
-                <div class="food"><span>🍝</span><b>White Sauce Pasta</b><small>₹249</small></div>
-                <div class="food"><span>🥗</span><b>Garden Salad</b><small>₹149</small></div>
+                <div class="food"><b>Farmhouse Pizza</b><small>₹299</small></div>
+                <div class="food"><b>Classic Burger</b><small>₹199</small></div>
+                <div class="food"><b>White Sauce Pasta</b><small>₹249</small></div>
+                <div class="food"><b>Garden Salad</b><small>₹149</small></div>
               </div>
             </div>
             <div class="bill">
@@ -61,7 +61,7 @@
               <div class="bill-row muted"><span>Subtotal</span><span>₹946</span></div>
               <div class="bill-row muted"><span>Tax 5%</span><span>₹47.30</span></div>
               <div class="total"><span>Total</span><strong>₹993.30</strong></div>
-              <button>Generate Bill →</button>
+              <button type="button">Generate Bill →</button>
             </div>
           </div>
         </div>
@@ -69,68 +69,104 @@
     </section>
 
     <section class="stats">
-      <div><strong>1</strong><span>Simple workflow</span></div>
-      <div><strong>∞</strong><span>Menu flexibility</span></div>
-      <div><strong>24/7</strong><span>Cloud-ready access</span></div>
-      <div><strong>AI</strong><span>Smarter decisions</span></div>
+      <div><strong>01</strong><span>Fast checkout flow</span></div>
+      <div><strong>02</strong><span>Simple menu control</span></div>
+      <div><strong>03</strong><span>Professional invoices</span></div>
+      <div><strong>04</strong><span>Sales visibility</span></div>
     </section>
 
     <section id="features" class="section">
-      <div class="section-head"><span class="eyebrow">WHY PAYBEFOREBITE</span><h2>Everything you need to<br><em>move faster.</em></h2><p>Designed around the way restaurants actually work — quick orders, clean bills and useful data.</p></div>
+      <div class="section-head">
+        <span class="eyebrow">BUILT AROUND BILLING</span>
+        <h2>Everything behind<br><em>every bill.</em></h2>
+        <p>A clean restaurant billing workflow from selecting items to printing the final invoice.</p>
+      </div>
       <div class="feature-grid">
-        <article><div class="icon">⚡</div><h3>Lightning-fast billing</h3><p>Create bills in seconds with a clean POS flow built for busy counters.</p></article>
-        <article><div class="icon">🍽</div><h3>Smart menu management</h3><p>Add, edit and organize dishes and prices without touching your code.</p></article>
-        <article><div class="icon">📊</div><h3>Useful analytics</h3><p>Understand sales, best sellers and restaurant performance from your data.</p></article>
-        <article><div class="icon">☁</div><h3>Cloud-ready</h3><p>Keep your restaurant data ready for connected workflows and future growth.</p></article>
-        <article><div class="icon">🧾</div><h3>Professional invoices</h3><p>Generate clean invoices with itemized details, tax and totals, ready to print.</p></article>
-        <article><div class="icon">🔐</div><h3>Built with control</h3><p>Keep your menu and transaction history structured for reliable operations.</p></article>
+        <article><div class="icon">₹</div><h3>Fast POS billing</h3><p>Add items, adjust quantities and generate the final bill in seconds.</p></article>
+        <article><div class="icon">≡</div><h3>Menu management</h3><p>Manage dishes, categories and prices without rebuilding the billing screen.</p></article>
+        <article><div class="icon">▤</div><h3>Professional invoices</h3><p>Generate clear itemized invoices with subtotal, tax and final total.</p></article>
+        <article><div class="icon">↺</div><h3>Menu history</h3><p>Keep a structured record of menu changes and price updates for operational visibility.</p></article>
+        <article><div class="icon">▥</div><h3>Sales dashboard</h3><p>See orders, revenue, item performance and category-level sales in one place.</p></article>
+        <article><div class="icon">☁</div><h3>Cloud-ready data</h3><p>Designed with connected restaurant workflows and scalable data management in mind.</p></article>
       </div>
     </section>
 
-    <section id="ai" class="ai-section">
-      <div class="ai-copy">
-        <div class="eyebrow"><span>✦</span> THE NEXT STEP</div>
-        <h2>Your restaurant data.<br><em>With intelligence.</em></h2>
-        <p>PayBeforeBite is designed to evolve beyond billing. Turn everyday transactions into insights that help you make better decisions.</p>
-        <ul>
-          <li><span>✓</span> Sales trend summaries</li>
-          <li><span>✓</span> Best-selling item insights</li>
-          <li><span>✓</span> Demand and menu recommendations</li>
-          <li><span>✓</span> Natural-language business questions</li>
-        </ul>
+    <section id="how-it-works" class="section workflow">
+      <div class="section-head">
+        <span class="eyebrow">HOW IT WORKS</span>
+        <h2>From order to<br><em>invoice.</em></h2>
+        <p>Three straightforward steps for the billing counter.</p>
       </div>
-      <div class="ai-card">
-        <div class="ai-top"><span>✦ AI Restaurant Insight</span><small>LIVE</small></div>
-        <p class="question">“What should I promote this weekend?”</p>
-        <div class="ai-answer"><span>✦</span><div><b>Weekend opportunity</b><p>Your top-selling items have strong repeat demand. Consider a combo featuring your best seller with a high-margin side.</p></div></div>
-        <div class="ai-bars"><i style="height:48%"></i><i style="height:68%"></i><i style="height:58%"></i><i style="height:88%"></i><i style="height:74%"></i><i style="height:100%"></i><i style="height:84%"></i></div>
+      <div class="steps">
+        <article><span>01</span><h3>Select items</h3><p>Search the menu, choose items and update quantities in the cart.</p></article>
+        <article><span>02</span><h3>Review the bill</h3><p>Capture the customer name and verify subtotal, tax and total.</p></article>
+        <article><span>03</span><h3>Generate & print</h3><p>Create the invoice, save the transaction and print a professional bill.</p></article>
       </div>
     </section>
 
-    <section id="pricing" class="section pricing">
-      <div class="section-head"><span class="eyebrow">SIMPLE PRICING</span><h2>Start simple.<br><em>Scale when ready.</em></h2><p>Launch your restaurant operations without unnecessary complexity.</p></div>
-      <div class="pricing-card">
-        <div><span class="plan">EARLY ACCESS</span><h3>Free to start</h3><p>Everything you need to test PayBeforeBite in your restaurant.</p></div>
-        <div class="price">₹0 <small>/ early access</small></div>
-        <a class="primary-btn" href="#demo">Join early access →</a>
+    <section id="demo" class="demo-section">
+      <div class="demo-copy">
+        <div class="eyebrow"><span>LIVE PRODUCT DEMO</span></div>
+        <h2>See the billing flow<br><em>before you decide.</em></h2>
+        <p>Try the working restaurant POS, explore menu management and open the dashboard to see how transactions turn into useful reporting.</p>
+        <div class="demo-points">
+          <span>✓ Create a sample bill</span>
+          <span>✓ Manage menu items</span>
+          <span>✓ View sales analytics</span>
+        </div>
+      </div>
+      <div class="demo-card">
+        <div class="demo-top"><span>PAYBEFOREBITE DEMO</span><span>READY</span></div>
+        <div class="demo-metric"><strong>₹12,480</strong><span>Today's sample sales</span></div>
+        <div class="demo-lines">
+          <div><span>Orders</span><b>48</b></div>
+          <div><span>Items sold</span><b>132</b></div>
+          <div><span>Average bill</span><b>₹260</b></div>
+        </div>
+        <a class="primary-btn demo-btn" href="https://hashcloudsquare.github.io/restaurant/" target="_blank" rel="noopener">Open POS demo →</a>
+        <a class="demo-secondary" href="https://github.com/hashcloudsquare/restaurant" target="_blank" rel="noopener">View product on GitHub</a>
       </div>
     </section>
 
-    <section id="demo" class="cta">
-      <div><div class="eyebrow"><span>●</span> READY WHEN YOU ARE</div><h2>Make every bill<br><em>count.</em></h2><p>Bring faster billing and smarter restaurant operations together with PayBeforeBite.</p></div>
-      <div class="cta-actions"><a class="primary-btn light" href="mailto:hello@paybeforebite.com?subject=PayBeforeBite%20Early%20Access">Request early access →</a><span>No credit card required</span></div>
+    <section class="section audience">
+      <div class="section-head">
+        <span class="eyebrow">WHO IT IS FOR</span>
+        <h2>Built for busy<br><em>restaurant counters.</em></h2>
+      </div>
+      <div class="audience-grid">
+        <article><strong>Quick-service restaurants</strong><p>Keep queues moving with a faster billing workflow.</p></article>
+        <article><strong>Cafés & bakeries</strong><p>Manage a changing menu and produce clean customer bills.</p></article>
+        <article><strong>Independent restaurants</strong><p>Bring billing, menu control and sales visibility together.</p></article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div>
+        <div class="eyebrow"><span>LET'S TALK</span></div>
+        <h2>Want to see it<br><em>for your restaurant?</em></h2>
+        <p>Tell me what you need from a billing system and I can walk you through the current product, demo flow and next steps.</p>
+      </div>
+      <div class="contact-card">
+        <a class="contact-line" href="mailto:hello@paybeforebite.com?subject=PayBeforeBite%20Demo%20Request"><span>Email</span><strong>hello@paybeforebite.com →</strong></a>
+        <a class="contact-line" href="mailto:hello@paybeforebite.com?subject=PayBeforeBite%20Contact"><span>Product enquiry</span><strong>Contact me →</strong></a>
+        <div class="contact-note">Demo available • Restaurant billing focused</div>
+      </div>
     </section>
 
     <section id="faq" class="section faq">
       <div class="section-head"><span class="eyebrow">FAQ</span><h2>Questions, answered.</h2></div>
-      <details><summary>What is PayBeforeBite?</summary><p>PayBeforeBite is a restaurant POS concept focused on fast billing, menu management, invoices, analytics and future AI-powered insights.</p></details>
-      <details><summary>Can I manage my menu?</summary><p>Yes. The product is designed to let restaurant teams manage dishes, categories and prices from one place.</p></details>
-      <details><summary>Will it support analytics?</summary><p>Yes. Transaction data can be structured for sales reporting, dashboards and future AI insights.</p></details>
-      <details><summary>Is PayBeforeBite available now?</summary><p>The product is being prepared for early access. Join the early-access list to follow the launch.</p></details>
+      <details><summary>What is PayBeforeBite?</summary><p>PayBeforeBite is a restaurant billing management system focused on POS checkout, menu management, invoicing and sales visibility.</p></details>
+      <details><summary>Can I try the product?</summary><p>Yes. Use the demo above to open the working restaurant POS experience.</p></details>
+      <details><summary>Does it include menu management?</summary><p>Yes. The product includes menu creation, editing, pricing updates and structured menu history.</p></details>
+      <details><summary>Does it include a dashboard?</summary><p>Yes. The product includes reporting for revenue, orders, item sales and category performance.</p></details>
     </section>
   </main>
 
-  <footer><div class="brand"><span class="brand-mark">P</span><span>PayBeforeBite</span></div><p>Smart restaurant operations, one bill at a time.</p><span>© 2026 PayBeforeBite</span></footer>
+  <footer>
+    <div class="brand"><span class="brand-mark">P</span><span>PayBeforeBite</span></div>
+    <p>Restaurant billing management, made simpler.</p>
+    <span>© 2026 PayBeforeBite</span>
+  </footer>
   <script src="app.js"></script>
 </body>
 </html>
