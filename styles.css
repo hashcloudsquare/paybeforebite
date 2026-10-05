@@ -17,8 +17,9 @@ body{margin:0;background:var(--bg);color:var(--text);font-family:"DM Sans",sans-
 a{color:inherit;text-decoration:none}
 button{font:inherit}
 .nav{height:78px;display:flex;align-items:center;justify-content:space-between;max-width:1220px;margin:auto;padding:0 28px;position:sticky;top:0;z-index:20;background:rgba(244,250,250,.94);backdrop-filter:blur(14px);border-bottom:1px solid rgba(216,229,230,.75)}
-.brand{display:flex;align-items:center;gap:10px;font-family:"Space Grotesk";font-weight:700;font-size:18px}
-.brand-mark{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:var(--primary-dark);color:#fff;font-weight:700}
+.brand{display:flex;align-items:center}
+.brand-logo{display:block;width:174px;height:auto}
+.footer-logo{display:block;width:174px;height:auto}
 .nav nav{display:flex;gap:30px;color:#476064;font-size:14px}
 .nav nav a{padding:8px 0}
 .nav nav a:hover{color:var(--primary);border-bottom:2px solid var(--accent)}
@@ -63,6 +64,6 @@ h1{font-size:68px}h1 em,h2 em{font-style:normal;color:var(--primary)}
 .contact-section{max-width:1220px;margin:0 auto 100px;padding:70px 60px;background:#E8F5F5;border:1px solid #CFE5E6;border-radius:28px;display:grid;grid-template-columns:1.2fr .8fr;gap:50px;align-items:center}.contact-section h2{font-size:52px}.contact-section p{max-width:540px;color:var(--muted);line-height:1.7}
 .contact-card{background:#fff;border:1px solid var(--border);border-radius:18px;overflow:hidden}.contact-line{display:flex;justify-content:space-between;gap:15px;padding:22px}.contact-line+ .contact-line{border-top:1px solid var(--border)}.contact-line span{color:var(--muted);font-size:12px}.contact-line strong{font-size:13px;color:var(--primary-dark)}.contact-line:hover{background:var(--surface-soft)}.contact-note{padding:15px 22px;background:var(--surface-soft);border-top:1px solid var(--border);font-size:11px;color:var(--muted)}
 .faq{max-width:850px;padding-top:20px}.faq details{border-top:1px solid var(--border);padding:22px 4px}.faq summary{cursor:pointer;font:600 16px "Space Grotesk"}.faq details p{color:var(--muted);line-height:1.6;font-size:14px;max-width:700px}.faq details:last-child{border-bottom:1px solid var(--border)}
-footer{max-width:1220px;margin:auto;border-top:1px solid var(--border);padding:30px 28px 45px;display:flex;align-items:center;gap:30px;font-size:11px;color:var(--muted)}footer .brand{color:var(--text);margin-right:auto;font-size:15px}
+footer{max-width:1220px;margin:auto;border-top:1px solid var(--border);padding:30px 28px 45px;display:flex;align-items:center;gap:30px;font-size:11px;color:var(--muted)}footer .brand{margin-right:auto}
 @media(max-width:900px){.nav nav,.nav-cta{display:none}.menu-btn{display:block}.hero{grid-template-columns:1fr;padding-top:55px}.hero h1{font-size:54px}.hero-visual{margin-top:10px}.feature-grid{grid-template-columns:1fr 1fr}.steps,.audience-grid{grid-template-columns:1fr}.demo-section,.contact-section{grid-template-columns:1fr;margin-left:18px;margin-right:18px;padding:48px 30px}.stats{grid-template-columns:1fr 1fr;gap:20px}.stats div:nth-child(2){border:0}}
-@media(max-width:560px){h1{font-size:44px!important}.hero{padding-left:20px;padding-right:20px}.hero-actions{flex-wrap:wrap}.pos-body{grid-template-columns:1fr}.bill{border-left:0;border-top:1px solid var(--border)}.feature-grid{grid-template-columns:1fr}.section-head h2,.demo-copy h2,.contact-section h2{font-size:40px}.demo-section,.contact-section{margin-left:12px;margin-right:12px}.contact-line{flex-direction:column;gap:7px}footer{flex-wrap:wrap}footer .brand{width:100%}}
+@media(max-width:560px){.brand-logo{width:150px}.footer-logo{width:160px}h1{font-size:44px!important}.hero{padding-left:20px;padding-right:20px}.hero-actions{flex-wrap:wrap}.pos-body{grid-template-columns:1fr}.bill{border-left:0;border-top:1px solid var(--border)}.feature-grid{grid-template-columns:1fr}.section-head h2,.demo-copy h2,.contact-section h2{font-size:40px}.demo-section,.contact-section{margin-left:12px;margin-right:12px}.contact-line{flex-direction:column;gap:7px}footer{flex-wrap:wrap}footer .brand{width:100%}}
